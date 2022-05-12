@@ -1,0 +1,165 @@
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-bgr-color: #E5E5E5;
+    --secondary-bgr-color: #F5F4FA;
+    --white-color: #FFFFFF;
+    --footer-brg-color: #2F303A;
+}
+
+body {
+    background-color: var(--primary-bgr-color);
+    color: var(--title-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    
+}
+h1, h2, h3, h4 { 
+    color: var(--title-color);
+}
+p {
+    color: var(--text-color);
+}
+
+.list {
+    list-style: none;
+}
+/* Header */
+.header {
+    background-color: var(--white-color);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    color: var(--title-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+.sait-nav .link {
+    color: var(--title-color);
+    text-decoration: none;
+}
+.sait-nav .link.current {
+    color: var(--accent-color);
+}
+.contacts-link {
+    color: var(--text-color);
+    font-style: normal;
+    text-decoration: none;
+}
+.sait-nav .link:hover,
+.sait-nav .link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+
+    color: var(--accent-color);
+}
+
+/*Hero, footer */
+.hero, .footer {
+    background-color: var(--footer-brg-color);
+}
+.hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    cursor: pointer;
+}
+
+.footer > .logo {
+    color: var(--white-color);
+}
+.contacts-link.adds {
+    color: var(--white-color);
+}
+
+/*Main*/
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+/*Features */
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.feature-description {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/*Services*/
+
+
+/*employees*/
+.employees {
+    background-color: var(--secondary-bgr-color);
+}
+.employee {
+    background-color: var(--white-color);
+}
+.employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.employee-position {
+font-size: 16px;
+text-align: center;
+}
+/*Portfolio*/
+.portfolio-button {
+    background-color: var(--secondary-bgr-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.case-link {
+    text-decoration: none;
+}
+.case-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+.cases.list .case-type {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
