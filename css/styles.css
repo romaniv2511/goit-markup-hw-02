@@ -142,6 +142,10 @@ text-align: center;
 /*Portfolio*/
 .portfolio-button {
     background-color: var(--secondary-bgr-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
