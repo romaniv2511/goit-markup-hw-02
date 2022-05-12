@@ -141,6 +141,7 @@ text-align: center;
 }
 /*Portfolio*/
 .portfolio-button {
+    color: var(--title-color);
     background-color: var(--secondary-bgr-color);
     font-weight: 500;
     font-size: 16px;
