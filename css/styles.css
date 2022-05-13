@@ -32,6 +32,7 @@ p {
     background-color: var(--white-color);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -41,6 +42,7 @@ p {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -61,8 +63,8 @@ p {
 }
 .sait-nav .link:hover,
 .sait-nav .link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
+.header .contacts-link:hover,
+.header .contacts-link:focus {
 
     color: var(--accent-color);
 }
@@ -129,23 +131,25 @@ p {
 }
 .employee {
     background-color: var(--white-color);
+    text-align: center;
+}
+.employee-name .employee-position {
+    font-size: 16px;
+    line-height: 1.19;
+    
 }
 .employee-name {
     font-weight: 500;
-    font-size: 16px;
-    text-align: center;
-}
-.employee-position {
-font-size: 16px;
-text-align: center;
 }
 /*Portfolio*/
 .portfolio-button {
     color: var(--title-color);
     background-color: var(--secondary-bgr-color);
+    font: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: inherit;
     cursor: pointer;
 }
 .portfolio-button:hover,
@@ -162,6 +166,9 @@ text-align: center;
     line-height: 2;
     letter-spacing: 0.06em;
 
+}
+.case-item {
+    background-color: var(--white-color);
 }
 .cases.list .case-type {
     font-size: 16px;
