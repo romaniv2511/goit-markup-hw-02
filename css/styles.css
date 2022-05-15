@@ -2,9 +2,8 @@
     --title-color: #212121;
     --text-color: #757575;
     --accent-color: #2196F3;
-    --primary-bgr-color: #E5E5E5;
+    --primery-bgr-color: #FFFFFF;
     --secondary-bgr-color: #F5F4FA;
-    --white-color: #FFFFFF;
     --footer-brg-color: #2F303A;
 }
 
@@ -29,7 +28,6 @@ p {
 }
 /* Header */
 .header {
-    background-color: var(--white-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -63,8 +61,10 @@ p {
 }
 .sait-nav .link:hover,
 .sait-nav .link:focus,
-.header .contacts-link:hover,
-.header .contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus,
+.contacts-link.adds:hover,
+.contacts-link.adds:focus {
 
     color: var(--accent-color);
 }
@@ -74,7 +74,7 @@ p {
     background-color: var(--footer-brg-color);
 }
 .hero-title {
-    color: var(--white-color);
+    color: var(--primery-bgr-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -83,7 +83,7 @@ p {
     text-transform: uppercase;
 }
 .hero-button {
-    color: var(--white-color);
+    color: var(--primery-bgr-color);
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
@@ -97,10 +97,14 @@ p {
 }
 
 .footer > .logo {
-    color: var(--white-color);
+    color: var(--primery-bgr-color);
+}
+.footer-contacts {
+    font-size: 14px;
+    line-height: 1.71;
 }
 .contacts-link.adds {
-    color: var(--white-color);
+    color: var(--primery-bgr-color);
 }
 
 /*Main*/
@@ -109,6 +113,20 @@ p {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 /*Features */
 .feature-title {
@@ -130,7 +148,7 @@ p {
     background-color: var(--secondary-bgr-color);
 }
 .employee {
-    background-color: var(--white-color);
+    background-color: var(--primery-bgr-color);
     text-align: center;
 }
 .employee-name .employee-position {
@@ -154,7 +172,7 @@ p {
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-    color: var(--white-color);
+    color: var(--primery-bgr-color);
     background-color: var(--accent-color);
 }
 .case-link {
@@ -167,9 +185,7 @@ p {
     letter-spacing: 0.06em;
 
 }
-.case-item {
-    background-color: var(--white-color);
-}
+
 .cases.list .case-type {
     font-size: 16px;
     line-height: 1.88;
